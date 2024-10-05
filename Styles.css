@@ -45,3 +45,52 @@
   position: relative;
   padding-right: 10vh;
 }
+.body{
+    height: 80vh;
+    width: 180vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.arrows{
+    z-index: 1;
+    
+}
+.arrow1{
+    
+    height: 5vh;
+    width: 5vh;
+    padding-left: 10vh;   
+}
+.arrow2{
+    
+    height: 5vh;
+    width: 5vh;
+    padding-right: 10vh;  
+}
+.main{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 80vh;
+    width: 180vh;
+}
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    height: 152px;
+    width: 180vh;
+    justify-content: space-between;
+}
+.header2{
+    font-size: 20px;
+    justify-content: center;
+    margin: auto;
+    
+}
