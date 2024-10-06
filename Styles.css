@@ -224,6 +224,67 @@ button{
     
 }
 .blog-section{
-    height: 1450px;
+    height: 670px;
     width:100% ;
+    
+}
+.text{
+    height: 50px;
+    width: 1130px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.more-button{
+    display: flex;
+    
+}
+.article-section{
+    height: 420px;
+    width: 1130px;
+    margin: auto;
+    
+    display: flex;
+    gap: 10px;
+    
+}
+.article{
+    display: flex;
+    flex-direction: column;
+}
+.more{
+    display: flex;
+}
+.newsletter{
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+.newsletter-content{
+    height: 170px;
+    width:540px ;
+    margin: auto;
+}
+.email{
+    height: 50px;
+    width:500px ;
+    display: flex;
+    
+}
+.sign{
+    display: flex;
+    justify-content: space-between
+}
+.sofa-image{
+    float: right;
+}
+.table{
+    float: left;
+    /* position:absolute; */
+    /* clip: rect(0,50px,50px,50px); */
+}
+.footer{
+    height: 250px;
+    width: 100%;
+    background-color: gray;
 }
