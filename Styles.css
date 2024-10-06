@@ -27,8 +27,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height:70px ;
+  width: 100%;
 }
 .navbar {
+    height: 100px;
   display: flex;
   align-items: center;
   position: relative;
@@ -286,5 +289,62 @@ button{
 .footer{
     height: 250px;
     width: 100%;
-    background-color: gray;
+    background-color:black;
+    
+    justify-content: space-between;
+    margin: auto;
+}
+.footer-content{
+    display: flex;
+    padding-top: 80px;
+    height: 30px;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between; 
+}
+.navbar2{
+    justify-content: space-evenly;
+    margin: auto;
+   float: right;
+}
+.navbar2 ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar2 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar2 ul li{
+   
+    margin: 5px;
+}
+hr{
+    
+    margin: auto;
+    height: 2px;
+    width: 80%;
+    background-color: white;
+}
+.footer-nav{
+    height:60px ;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.copyright{
+    margin-top: 20px;
+    height: 20px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyright a{
+    color: white;
+}
+.social-media{
+    display: flex;
+    margin-top: 20px;
 }
